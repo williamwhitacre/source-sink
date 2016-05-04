@@ -3,7 +3,7 @@
 Source, Sink, and Pipe are dataflow helpers which provide a structured way of
 handling streaming changes to data in your application in a data structure
 agnostic way, so that you can use whatever datastructures best represent your
-application's data.
+application's data. These are optimized with care.
 
 ## Why?
 
@@ -19,4 +19,5 @@ examples will develop when time allows.
 
 ## Acknowledgements
 
+* [Max S. New](https://github.com/maxsnew) for the Lazy module.
 * [Robin Luiten](https://github.com/rluiten) for the Trie implementation.

@@ -1,18 +1,18 @@
 {
     "version": "1.0.0",
     "summary": "Source and sink adapters for modelling dataflow.",
-    "repository": "https://github.com/user/project.git",
+    "repository": "https://github.com/williamwhitacre/source-sink.git",
     "license": "BSD3",
     "source-directories": [
         "src"
     ],
     "exposed-modules": [
-        "Source",
-        "Sink",
-	"Transform"
+        "Flow.Source",
+        "Flow.Transform"
     ],
     "dependencies": {
         "elm-lang/core": "3.0.0 <= v < 4.0.0",
+        "maxsnew/lazy": "1.1.0 <= v < 2.0.0",
         "rluiten/trie": "2.0.0 <= v < 3.0.0"
     },
     "elm-version": "0.16.0 <= v < 0.17.0"
